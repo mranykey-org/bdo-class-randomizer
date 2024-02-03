@@ -27,7 +27,8 @@ const classes = [
   "Maegu",
   "Scholar",
 ];
-
+const audioElement = new Audio("slot-machine.mp3");
+audioElement.volume = 0.008;
 const classesImgWidth = 2370;
 const classesImgHeight = 983;
 const classImgWidth = 237;
@@ -58,6 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
   randomizeButton.addEventListener("click", function () {
     btn.style.display = "none";
     overlay.style.display = "none";
+    audioElement.play();
     randomizeClass();
   });
 });
@@ -174,6 +176,7 @@ function highlightClass(index) {
 }
 
 function displayResult(result) {
+  audioElement.pause();
   const randomColor = getRandomColor();
   const resultText = document.createElement("p");
 
