@@ -146,7 +146,7 @@ function setClassPicProperties(classPic) {
 }
 
 function randomizeClass() {
-  const iterations = 100;
+  const iterations = 40;
   popup.innerHTML = "";
 
   for (let i = 0; i < iterations; i++) {
@@ -172,7 +172,7 @@ function highlightClass(index) {
     classDiv.style.border = "";
     classDiv.style.boxShadow = "";
     classDiv.classList.remove("highlight");
-  }, 200);
+  }, 100);
 }
 
 function displayResult(result) {
