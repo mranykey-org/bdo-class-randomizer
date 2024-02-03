@@ -25,4 +25,4 @@ This website is a tool for players who find it challenging to choose a class to 
 
 ## Feedback
 
-If you have any suggestions, encounter issues, or want to contribute, please feel free to open an issue or pull request on the [GitHub repository](https://github.com/yourusername/BlackDesertClassRandomizer).
+If you have any suggestions, encounter issues, or want to contribute, please feel free to open an issue or pull request on the [GitHub repository](https://github.com/mranykey-org/bdo-class-randomizer).
